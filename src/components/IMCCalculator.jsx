@@ -22,8 +22,8 @@ export default function IMCCalculator() {
     if (resultadoIMC < 18.5) setClassificacao("Abaixo do peso 🍌");
     else if (resultadoIMC >= 18.5 && resultadoIMC < 24.9 ) setClassificacao("Peso normal 🥑");
     else if (resultadoIMC >= 25 && resultadoIMC < 29.9) setClassificacao("Sobrepeso 🍎");
-    else if (resultadoIMC >= 35 && resultadoIMC < 34.9) setClassificacao("Obesidade Grau I 🍫");
-    else if (resultadoIMC >= 40 && resultadoIMC < 39.9) setClassificacao("Obesidade Grau II 🍕");
+    else if (resultadoIMC >= 30 && resultadoIMC < 34.9) setClassificacao("Obesidade Grau I 🍫");
+    else if (resultadoIMC >= 35 && resultadoIMC < 39.9) setClassificacao("Obesidade Grau II 🍕");
     else setClassificacao("Obesidade Grau III 🍔");
   }
 
