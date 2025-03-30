@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--mainColor);
+}
+
+:root{
+    --mainColor: #a0c9f5;
+    --cardColor: white;
+    --inputColor: #eeea18;
+    --buttonColor: #007bff;
+    --blueColor: #0056b3;
+}
